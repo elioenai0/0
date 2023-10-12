@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoring Elioenai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <div id="logo"></div>
+        </a>
+        <div id="botoesgerais">
+            <a onclick="login()">
+                <div class="botaoNvisivel">
+                    <span class="material-symbols-outlined" id="">person</span><p>Logar</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="botaoNvisivel">
+                    <span class="material-symbols-outlined" id="">help</span><p>Ajuda</p>
+                </div>
+            </a>
+        </div>
+
+        <span class="material-symbols-outlined" id="hamb" onclick="apareceNavegador()">menu</span>
+
+        <nav>
+            <a href="qs.php"><input type="button" value="Quem somos"></a>
+            <a onclick="alertaIgual()"><input type="button" value="Cursos Gratuitos"></a>
+            <a href="cp.php"><input type="button" value="Cursos Pagos"></a>
+            <a href="pf.php"><input type="button" value="Perguntas Frequentes"></a>
+        </nav>
+    </header>
+    <!--_________________FIM DOS TÍTULOS________________________________-->
+    
+    <h1>Aula Gratuíta de música</h1>
+    
+    <br>
+    <table>
+        <tr>
+            <td>Curso:</td>
+            <td>Música Erudita</td>
+        </tr>
+        <tr>
+            <td>Professor:</td>
+            <td>Elioenai de Oliveira</td>
+        </tr>
+        <tr>
+            <td>Data de Publicação: </td>
+            <td>Janeiro de 2023</td>
+        </tr>
+        <tr>
+            <td>Identificador:</td>
+            <td>01.12/2023</td>
+        </tr>
+    </table>
+    <br>
+    <div class="iframesParaAulas">
+        <h1>Aula 01: Introdução à Música</h1>
+        <p><strong>Atenção! </strong>Aguarde o carregamento do vídeo!</p>
+        <p>Para reproduzir o vídeo, clique em ⁝ e depois clique em ▶.</p>
+        <iframe src="https://onedrive.live.com/embed?resid=4D7B062209F8D24%21106&amp;authkey=!ABkGPG60Ieexrws&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=1" width="476px" height="288px" frameborder="0">Este é um apresentação do <a target="_blank" href="https://office.com">Microsoft Office</a> incorporado, da plataforma <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    </div>
+    <br>
+    <a href="musica_aula2.html">
+        <div class="botaoNvisivel">
+            <span class="material-symbols-outlined">skip_next</span>
+            <span>Próxima Aula</span>
+        </div>
+    </a>
+    <br>
+    <a href="https://api.whatsapp.com/send?phone=19988705673&text=Olá%2c%20professor%20Elioenai!%20Estou%20com%20dúvida!">
+        <div class="botaoNvisivel">
+            <span class="material-symbols-outlined">person_raised_hand</span>
+            <span>Tenho Dúvidas</span>
+        </div>
+    </a>
+    
+    <br>
+    
+    <footer>
+        <a href="https://elioenaioliveira.github.io/eu/" target="_blank">
+            Profº Elioenai Oliveira &#174; 
+            <br>
+            <span>Farmacêutico, Químico, Programador e multi-instrumentista.</span>
+        </a>
+    </footer>
+    <script src="musculos.js"></script>
+</body>
